@@ -80,7 +80,7 @@ fs.readdir("./cmds/fun/", (err, files) => {
 
 bot.on("ready", async () => {
     console.log(`${bot.user.username} онлайн на ${bot.guilds.size} серверах!`);
-    bot.user.setActivity("стрим Russia Paver", {type: "WATCHING"});
+    bot.user.setActivity("как захватить человечество", {type: "WATCHING"});
 
     bot.setInterval(() => {
         for(let i in bot.mutes) {
