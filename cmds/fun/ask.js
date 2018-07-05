@@ -40,7 +40,8 @@ module.exports.run = async (bot, message, args) => {
         ":middle_finger:",
         "Подъёб не засчитан",
         "Павер знает",
-        "Историю браузера чекни"
+        "Историю браузера чекни",
+        "Видео есть, скину в лс"
     ];
 
     let result = Math.floor((Math.random() * replies.length));
