@@ -53,7 +53,7 @@ module.exports.run = async (bot, message, args) => {
         .addField("Ответ", replies[result]);
     
     message.delete();
-    message.channel.send(ballembed);
+    message.channel.send(ballembed).then(msg => msg.delete(30000));
 }
 
 module.exports.help = {
